@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>E - Warung | Edit Warung Lucky</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="http://127.0.0.1:8000/eshopper/img/E.png" rel="icon">
+
+    <link rel="stylesheet" href="http://127.0.0.1:8000/eshopper/css/style-sebelah.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/eshopper/css/content-box.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/eshopper/css/flexslider.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/eshopper/css/skin.css">
+
+    <!-- Vendor CSS Files -->
+    <link href="http://127.0.0.1:8000/bootslander/assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="http://127.0.0.1:8000/bootslander/assets/css/style.css" rel="stylesheet">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Libraries Stylesheet -->
+    <link href="http://127.0.0.1:8000/eshopper/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="http://127.0.0.1:8000/eshopper/css/style.css" rel="stylesheet">
+
+    
+
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid">
+        <div class="row bg-secondary py-2 px-xl-5">
+            <div class="col-lg-6 d-none d-lg-block">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-dark" href="/admin">Admin</a>
+                    <span class="text-muted px-2">|</span>
+                    <a class="text-dark" href="">FAQs</a>
+                    <span class="text-muted px-2">|</span>
+                    <a class="text-dark" href="">Help</a>
+                    <span class="text-muted px-2">|</span>
+                    <a class="text-dark" href="">Support</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-dark px-2" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-dark px-2" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-dark px-2" href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-dark px-2" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-dark pl-2" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center bg-light navbar-light py-3 px-xl-5">
+            <div class="col-lg-3 d-none d-lg-block">
+                <a href="" class="text-decoration-none">
+                    <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">E</span>Warung</h1>
+                </a>
+            </div>
+            <div class="col-lg-6 col-6 text-left">
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for products">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-transparent text-primary">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+                                                </div>
+    </div>
+    <!-- Topbar End -->
+
+    <div class="row border-top border-bottom sticky-top">
+        <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-xl-5">
+                <a href="" class="text-decoration-none d-block d-lg-none">
+                    <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">E</span>Warung</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto py-0">
+                        <a href="/" class="nav-item nav-link collapsed">Beranda</a>
+                        <a href="/warung" class="nav-item nav-link collapsed">Warung</a>
+                                                                                                    <a href="/contact" class="nav-item nav-link collapsed">Contact</a>
+                    </div>
+                    <div class="navbar-nav ml-auto py-0">
+                        
+                                                                            <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                    Luki<i class="fa fa-user mx-2" aria-hidden="true"></i>
+                                </a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="/profile" class="dropdown-item">Profile</a>
+                                                                                                                                                    <a class="dropdown-item" href="http://127.0.0.1:8000/logout"
+                                        onclick="event.preventDefault();
+                                            document.getElementById('logout-form').submit();">
+                                        Logout
+                                    </a>
+
+                                    <form id="logout-form" action="http://127.0.0.1:8000/logout" method="POST" class="d-none">
+                                        <input type="hidden" name="_token" value="Ku3euURq634p3ScxdQLA3hnJ0HLWAn65wfKgLM7e">                                    </form>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+        <!-- Page Header Start -->
+    <div class="container-fluid bg-secondary">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
+            <h1 class="font-weight-semi-bold text-uppercase mb-3">Edit data</h1>
+            <div class="d-inline-flex">
+                <p class="m-0"><a href="/">Home</a></p>
+                <p class="m-0 px-2">-</p>
+                <p class="m-0">Warung Lucky</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid">
+
+            <div class="col-12 mt-5">
+        <div class="card">
+            <form action="/warung/9" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="_token" value="Ku3euURq634p3ScxdQLA3hnJ0HLWAn65wfKgLM7e">                <input type="hidden" name="_method" value="put">
+                <div class="row mt-3 mb-3">
+                    <label for="fotowarung" class="col-md-4 col-lg-3 col-form-label">Foto Warung</label>
+                    <div class="col-md-8 col-lg-9">
+                        <input name="fotowarung" type="file" class="form-control-file" id="fotowarung">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="namawarung" class="col-md-4 col-lg-3 col-form-label">Nama Warung</label>
+                    <div class="col-md-8 col-lg-9">
+                        <input name="nama" type="text" class="form-control" id="namawarung" value="Warung Lucky">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="nomorhpwarung" class="col-md-4 col-lg-3 col-form-label">No. Hp</label>
+                    <div class="col-md-8 col-lg-9">
+                        <input name="nomorhp" type="text" class="form-control" id="nomorhpwarung" value="087645234123">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="alamatwarung" class="col-md-4 col-lg-3 col-form-label">Alamat Lengkap</label>
+                    <div class="col-md-8 col-lg-9">
+                        <input name="alamat" type="text" class="form-control" id="alamatwarung" value="Pedukuhan IX RT 035/RW 018 Cerme, Panjatan, Kulon Progo">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="kodepos" class="col-md-4 col-lg-3 col-form-label">Kode Pos</label>
+                    <div class="col-md-8 col-lg-9">
+                        <input name="kodepos" type="text" class="form-control" id="kodepos" value="55655">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="biodatawarung" class="col-md-4 col-lg-3 col-form-label">Biodata</label>
+                    <div class="col-md-8 col-lg-9">
+                        <textarea name="biodata" class="form-control" id="biodatawarung" style="height: 100px">Semangat</textarea>
+                    </div>
+                </div>
+
+                
+                <div class="form-group">
+                    <input type="hidden" name="users_id" class="form-control" value="10">
+                </div>
+
+                <div class="text-center mb-3">
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+            </form><!-- End Create Shop Edit Form -->
+        </div>
+    </div>
+
+        <!-- Vendor Start -->
+        <div class="text-center mt-5 mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Support By</span></h2>
+        </div>
+        <div class="section-empty bg-white">
+            <div class="container content">
+                <hr class="space l" />
+                <div class="flexslider carousel png-over" data-options="numItems:5,minWidth:100,itemMargin:60,controlNav:false,directionNav:false">
+                    <ul class="slides">
+                        <li>
+                            <a class="img-box" href="#">
+                                <img src="http://127.0.0.1:8000/template/images/logos/bca.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="img-box" href="#">
+                                <img src="http://127.0.0.1:8000/template/images/logos/dana.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="img-box" href="#">
+                                <img src="http://127.0.0.1:8000/template/images/logos/paypal.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="img-box" href="#">
+                                <img src="http://127.0.0.1:8000/template/images/logos/gopay.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="img-box" href="#">
+                                <img src="http://127.0.0.1:8000/template/images/logos/jago.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="img-box" href="#">
+                                <img src="http://127.0.0.1:8000/template/images/logos/bca.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="img-box" href="#">
+                                <img src="http://127.0.0.1:8000/template/images/logos/dana.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="img-box" href="#">
+                                <img src="http://127.0.0.1:8000/template/images/logos/paypal.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="img-box" href="#">
+                                <img src="http://127.0.0.1:8000/template/images/logos/gopay.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- Penutup container-fluid -->
+    <!-- Vendor End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-dark mt-5">
+        <!-- Subscribe Start -->
+        <div class="row justify-content-md-center py-5 px-xl-5">
+            <div class="col-md-6 col-12 py-5">
+                <div class="text-center mb-2 pb-2">
+                    <h2 class="section-title px-5 mb-3"><span class="bg-secondary px-2">Stay Updated</span></h2>
+                    <p>Amet lorem at rebum amet dolores. Elitr lorem dolor sed amet diam labore at justo ipsum eirmod duo labore labore.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Subscribe End -->
+        <div class="row px-xl-5 pt-5">
+            <div class="col-lg-5 col-md-12 mb-5 pr-3 pr-xl-5">
+                <a href="" class="text-decoration-none">
+                    <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white px-3 mr-1">E</span>Warung</h1>
+                </a>
+                <p>E-warung adalah sebuah istilah yang merujuk pada warung atau toko kecil yang menjual berbagai macam produk kebutuhan.</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Jl. Tentara Rakyat Mataram, Jetis, Yogyakarta</p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>ewarung@example.com</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+62 (0) 101 0000 000</p>
+            </div>
+            <div class="col-lg-7 col-md-12">
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-dark mb-2" href="/"><i class="fa fa-angle-right mr-2"></i>Beranda</a>
+                            <a class="text-dark mb-2" href="/warung"><i class="fa fa-angle-right mr-2"></i>Warung</a>
+                                                                                                                    <a class="text-dark mb-2" href="/contact"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+                            <a class="text-dark mb-2" href="/login"><i class="fa fa-angle-right mr-2"></i>Login</a>
+                            <a class="text-dark" href="/register"><i class="fa fa-angle-right mr-2"></i>Register</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-5">
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <h5 class="font-weight-bold text-dark mb-4">Newsletter</h5>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
+                                    required="required" />
+                            </div>
+                            <div>
+                                <button class="btn btn-primary btn-block border-0 py-3" type="submit">Subscribe Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row border-top border-light mx-xl-5 py-4">
+            <div class="col-md-6 px-xl-0">
+                <p class="mb-md-0 text-center text-md-left text-dark">
+                    &copy; <a class="text-dark font-weight-semi-bold" href="#">E - Warung</a>. All Rights Reserved. Designed
+                    by
+                    <a class="text-dark font-weight-semi-bold" href="https://htmlcodex.com">HTML Codex</a><br>
+                    Distributed By <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                </p>
+            </div>
+            <div class="col-md-6 px-xl-0 text-center text-md-right">
+                <img class="img-fluid" src="http://127.0.0.1:8000/eshopper/img/payments.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="http://127.0.0.1:8000/eshopper/lib/easing/easing.min.js"></script>
+    <script src="http://127.0.0.1:8000/eshopper/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="http://127.0.0.1:8000/eshopper/mail/jqBootstrapValidation.min.js"></script>
+    <script src="http://127.0.0.1:8000/eshopper/mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="http://127.0.0.1:8000/eshopper/js/main.js"></script>
+
+    <!-- Template Sebelah -->
+    <script src="http://127.0.0.1:8000/template/HTWF/scripts/script.js"></script>
+    <script src="http://127.0.0.1:8000/template/HTWF/scripts/flexslider/jquery.flexslider-min.js"></script>
+
+    <!-- Vendor JS Files -->
+    <script src="http://127.0.0.1:8000/bootslander/assets/vendor/aos/aos.js"></script>
+    <script src="http://127.0.0.1:8000/bootslander/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="http://127.0.0.1:8000/bootslander/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="http://127.0.0.1:8000/bootslander/assets/js/main.js"></script>
+
+    <!-- SweetAlert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <!-- SweetAlert -->
+    </body>
+
+</html>
